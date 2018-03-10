@@ -15,10 +15,10 @@ it always starts at upper-left corning and goes towards southeast.
 				   ONE-LINER
 
 
-The following 229 characters is a stripped version from the initial commit 
+The following 224 characters is a stripped version from the initial commit 
 (e685f67) as a one-liner:
 
-W=($(tput cols) $(tput lines));P=(1 1);D=(1 1);L=\\/;clear;while sleep .05; do ((i=(D[0]*D[1]+1)/2));echo -ne "\e[${P[1]};${P[0]}H${L:i:1}"; for i in 0 1; do ((P[i]+=D[i]));((P[i]<1||P[i]>W[i]))&&((D[i]*=-1,P[i]+=D[i]));done;done
+W=($(tput cols) $(tput lines));P=(1 1);D=(1 1);L=\\/;clear;while sleep .05;do((i=(D[0]*D[1]+1)/2));echo -ne "\e[${P[1]};${P[0]}H${L:i:1}";for i in 0 1;do((P[i]+=D[i]));((P[i]<1||P[i]>W[i]))&&((D[i]*=-1,P[i]+=D[i]));done;done
 
 
                                    COPYRIGHT
