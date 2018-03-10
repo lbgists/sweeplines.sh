@@ -1,0 +1,18 @@
+
+
+                      Sweeping Lines Terminal Screensaver
+
+
+sweeplines.sh is just a simple Bash script I whipped up in about an hour, 
+trying to imitate the screensaver that has colorful lines sweep and bounce 
+within screen.
+
+It doesn't not have colors nor the sweeping line has a length longer than one 
+character.  For sake of simplicity, no random starting positions or direction, 
+it always starts at upper-left corning and goes towards southeast.
+
+
+                                   COPYRIGHT
+
+
+sweeplines.sh is licensed under the MIT License.
